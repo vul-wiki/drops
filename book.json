@@ -12,7 +12,7 @@
             "首页": "http://vul.wiki",
             "我的书签": "http://mark.vul.wiki",
             "我的知识库": "http://drops.vul.wiki",
-            "我的共享盘": "http://desk.vul.wiki"
+            "我的共享盘": "http://disk.vul.wiki"
         }
     },
     "plugins": [
