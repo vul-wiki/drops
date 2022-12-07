@@ -1,0 +1,18 @@
+name: 'build'
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout action
+      uses: actions/checkout@v1
+    - name: VUL.WIKI DROPS
+      uses: vul-wiki/drops@master
+      with:
+        github_token: ${{ secrets.PERSONAL_TOKEN }}

@@ -1,0 +1,38 @@
+{
+    "title": "知识库 ｜ VUL.WIKI",
+    "author": "VUl.WIKI",
+    "description": "欢迎访问VUL.WIKI的知识库",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "首页": "http://vul.wiki",
+            "我的书签": "http://mark.vul.wiki",
+            "我的知识库": "http://drops.vul.wiki",
+            "我的共享盘": "http://desk.vul.wiki"
+        }
+    },
+    "plugins": [
+        "-lunr",
+        "-sharing",
+        "search-pro",
+        "pageview-count",
+        "anchors",
+        "page-footer-ex",
+        "todo",
+        "code",
+        "ancre-navigation"
+    ],
+    "pluginsConfig": {
+      "page-footer-ex": {
+          "copyright": "VUL.WIKI，使用<a href='https://creativecommons.org/licenses/by/4.0/deed.zh'>署名4.0国际(CC BY 4.0)协议</a>发布",
+          "markdown": true,
+          "update_label": "此页面修订于：",
+          "update_format": "YYYY-MM-DD HH:mm:ss"
+      }
+
+    }
+}
